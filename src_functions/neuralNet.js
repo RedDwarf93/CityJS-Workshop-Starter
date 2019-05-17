@@ -1,5 +1,5 @@
 
-import trainedNet from './neuralNet/trained-net';
+import trainedNet from './Neural/trained-net';
 
 
 
