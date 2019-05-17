@@ -5,9 +5,11 @@ import trainedNet from './neuralNet/trained-net';
 
 exports.handler = function(event, context, callback) {
 
-    const result = []
-
     const board = JSON.parse(event.body)
+
+    const result = trainedNet(board)
+
+    
 
     console.log(result)
 
